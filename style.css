@@ -1,0 +1,75 @@
+body {
+    font-family: cursive;
+    background: #1c4966;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form container */
+form {
+    width: 400px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h2 {
+    
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Labels */
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: #444;
+}
+
+/* Input fields */
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Input focus effect */
+input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Error messages */
+span {
+    color: red;
+    font-size: 13px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+/* Submit button */
+input[type="submit"] {
+    width: 100%;
+    background: #8A90FF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/* Button hover */
+input[type="submit"]:hover {
+    background: #FF0000;
+}

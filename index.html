@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+    
+</head>
+<body>
+
+<h2>REGISTRATION INTERFACE</h2>
+
+<form onsubmit="return validateForm()">
+
+    Full Name:
+    <input type="text" id="name">
+    <span id="nameErr"></span>
+
+    Age:
+    <input type="text" id="age">
+    <span id="ageErr"></span>
+
+    Address:
+    <input type="text" id="address">
+    <span id="addressErr"></span>
+
+    Height (cm):
+    <input type="text" id="height">
+    <span id="heightErr"></span>
+
+    Weight (kg):
+    <input type="text" id="weight">
+    <span id="weightErr"></span>
+
+    Mobile Number:
+    <input type="text" id="mobile">
+    <span id="mobileErr"></span>
+
+    Email:
+    <input type="text" id="email">
+    <span id="emailErr"></span>
+
+    <input type="submit" value="Register">
+
+</form>
+
+<script src="validation.js"></script>
+
+</body>
+</html>
