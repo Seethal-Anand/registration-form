@@ -48,14 +48,14 @@ function validateForm() {
     // Height
     if (!heightRegex.test(height)) {
         document.getElementById("heightErr").innerHTML =
-            "Height must be 50.0–250.0 cm";
+            "Height must be 50.0 &#45 250.0 cm";
         valid = false;
     }
 
     // Weight
     if (!weightRegex.test(weight)) {
         document.getElementById("weightErr").innerHTML =
-            "Weight must be 3.0–300.00 kg";
+            "Weight must be 3.0 &#45 300.00 kg";
         valid = false;
     }
 
