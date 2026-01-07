@@ -73,3 +73,16 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background: #FF0000;
 }
+/* --- Database Status Message Styling --- */
+#dbStatus {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    min-height: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    /* Light background to make the text pop */
+    background: #f9f9f9; 
+    border: 1px solid #eee;
+}
