@@ -9,7 +9,7 @@
 
 <h2>REGISTRATION INTERFACE</h2>
 
-<form onsubmit="return validateForm()">
+<form onsubmit="event.preventDefault(); validateForm();">
 
     Full Name:
     <input type="text" id="name">
@@ -40,7 +40,7 @@
     <span id="emailErr"></span>
 
     <input type="submit" value="Register">
-
+<div id="dbStatus" style="margin-top: 20px; font-weight: bold;"></div>
 </form>
 
 <script src="validation.js"></script>
